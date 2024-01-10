@@ -1,7 +1,7 @@
 # Byte-compiled / optimized / DLL files
 
-# LaMini-T5-738M
-LaMini-T5-738M
+LaMini-T5-738M/*
+LaMini-T5-738M/*
 models
 db/*
 docs/*

@@ -21,6 +21,7 @@ device = torch.device('cpu')
 
 # checkpoint = "MBZUAI/LaMini-T5-738M"
 checkpoint = "./LaMini-T5-738M"
+# checkpoint ='./models/phi-2'
 print(f"Checkpoint path: {checkpoint}")  # Add this line for debugging
 tokenizer = AutoTokenizer.from_pretrained(checkpoint)
 base_model = AutoModelForSeq2SeqLM.from_pretrained(
